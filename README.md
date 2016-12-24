@@ -1,7 +1,32 @@
-嗨!我是新捷，很高興認識你，我目前就讀於台北市立大學資訊科學系四年級，上面的Portfolio有很多關於我很有趣的介紹喔!如果有這個榮幸能認識您，可以用下方的聯絡方式找到我 :D
+=============================
+Sleek Blog
+=============================
 
-Hi,My name is Hsin Chieh Wu,I Study in University of Taipei now,my major is Computer Science.The Portfolio tell a lot of my secret,let's take a peek!Nice to meet you!You can contact me with the way on ↓
+[Live Website](http://gearoidoconnor.ie)
 
-http://hsin-chieh.github.io/
 
-https://www.facebook.com/profile.php?id=100000671667269
+A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+
+
+## System Preparation
+
+To use this project, you'll need the following things installed on your machine.
+
+1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
+2. [NodeJS](http://nodejs.org) - use the installer.
+3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
+
+## Local Installation
+
+1. Clone this repo, or download it into a directory of your choice.
+2. Inside the directory, run `npm install`.
+
+## Usage
+
+**development mode**
+
+This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
+
+```shell
+$ gulp
+```
