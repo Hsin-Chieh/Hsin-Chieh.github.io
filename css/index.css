@@ -52,8 +52,13 @@
 			color: #F2F2F2;
 		}
 		h1{
-			font-size: 6em;
+			font-size: 4em;
 		}
+h2{
+    font-size: 2em;
+    color: white;
+    
+}
 		p{
 			font-size: 2em;
 		}
@@ -67,8 +72,7 @@
 		/* Section 1
 		 * --------------------------------------- */
 		#section0{
-        background:url("../img/bg1.jpg");
-        opacity: 0.8;		
+        	
 }
 		#section0 h1{
 			color: black;
@@ -83,10 +87,10 @@
 		/* Section 2
 		 * --------------------------------------- */
 		#section1{
-			background-color:darkorange;
+			background-color:cadetblue;
 		}
 		#section1 h1{
-			color: #fff;
+			color:white;
 		}
 		#section1 p{
 			opacity: 0.8;
@@ -96,7 +100,7 @@
 		/* Section 3
 		 * --------------------------------------- */
 		#section2{
-			background-color: #2C3E50;
+			background-color:cadetblue;
 		}
 		#section2 h1{
 			color: #F2F2F2;
@@ -122,4 +126,32 @@ ul li{
     padding: 10px;
     font-size: 25px;
     text-align: center;
+}
+#landing{
+    position:relative;
+    top: 250px;
+    height: 350px;
+    border-radius: 150px;
+}
+#landing:hover{
+    background: black;
+    
+}
+
+
+.intro{
+    position: relative;
+    top: 250px;
+    
+}
+.experience{
+    display:inline;
+    width: 100%;
+    
+}
+.banner{
+    width: 80%;
+    height: %;
+    
+    
 }

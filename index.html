@@ -7,7 +7,7 @@
 <meta name="Hsin-Chieh Wu" content="Hsin-Chieh Wu,Github" />
 <link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />
 <link rel="stylesheet" type="text/css" href="css/index.css"/>
-<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<script src="https://use.fontawesome.com/fb787c5a10.js"></script>
 </head>
 <body>
 <div id="header">
@@ -23,19 +23,42 @@
 		<div class="slide" id="slide1">
 			<div class="content">
 				<div class="content">
+			<img src="img/me.jpg" id="landing">
+	<div class="intro">
 			<h1>吳新捷</h1>
-			
 			<p>Hsin-Chieh Wu</p>
-			
+    </div>    	
 			<div class="mainnav"></div>
 		</div>
 			</div>
 		</div>
 		<div class="slide" id="slide2">
 			<div class="content">
-				<h1>經歷</h1>
+<!--				<h2>經歷</h2>-->
+<ul class="experience">
+<li><a href="https://www.youtube.com/watch?v=ARwWmCh4mwU">在學校非常活躍地參與社團活動，曾舉辦多次大型營隊，並擔任許多基金會的志工長</a></li>
+<li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>				
+			
+			<a href="http://www.glory.org.tw/%E5%BF%AB%E6%A8%82%E5%AD%B8%E7%BF%92/"></a>	
+
+			
 			</div>
 		</div>
+		
+		
+		
+		
+		
+		
 		<div class="slide" id="slide3">
 			<div class="content">
 				<h1>展望</h1>
@@ -45,9 +68,13 @@
 			<div class="content">
 				<h1>聯絡</h1>
 				<ul>
-				    <li><i class="fa fa-github" aria-hidden="true"></i></li>
-				    <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+				    <a href="https://www.facebook.com/profile.php?id=100000671667269"><li><i class="fa fa-4x fa-github" aria-hidden="true"></i></li></a>
 				    <li></li>
+				    <a href="https://github.com/Hsin-Chieh"></a>
+				    <li><i class="fa fa-facebook-square fa-4x" aria-hidden="true">
+				        
+				    </i></li>
+				    
 				    <li></li>
 				</ul>
 			</div>
@@ -69,28 +96,40 @@
 	</div>
 	<div class="section" id="section2">
 		<div class="content">
-			<header>關於</header>
-			
+			<h2>請讓我自我介紹一下</h2>
+			<img src="img/exp3.jpg" class="banner">
+			<p>嗨！我2016年畢業於台北市立大學資訊科學系，興趣是打羽球、辦活動、寫程式，</p>
 		</div>
 	</div>
 	<div class="section" id="section3">
-	    
+    <div class="content">
+    <img src="img/exp1.png" class="banner">	    
+    
+    
+    
+    
+    </div>
 	</div>
 </div>
 
+
+
 <script type="text/javascript" src="js/javascript.fullPage.min.js"></script>
-<!--引入fullpage.js並啟動-->
+<!--引入fullpage.js並啟動
+API:http://www.dowebok.com/77.html 
+-->
 <script type="text/javascript">
 	fullpage.initialize('#fullpage', {
         anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 		menu: '#menu',
 		css3:true,
 //        verticalCentered:true,
-        scrollingSpeed:200,
+        scrollingSpeed:400,
         controlArrows:false,
         loopBottom:true,
         scrollBar:true,
-        fixedElements:'#header'
+        fixedElements:'#header',
+        navigation:true
 	});
 
 </script>
